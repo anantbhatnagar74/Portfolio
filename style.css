@@ -286,7 +286,7 @@ section {
 
 .home-img img {
     position: absolute;
-    bottom: 0;
+    bottom: 2;
     right: 50px;
     pointer-events: none;
     max-width: 500px;
@@ -937,4 +937,5 @@ span {
 img {
     border-radius: 20px;
 }
+
 
