@@ -287,10 +287,10 @@ section {
 .home-img img {
     position: absolute;
     bottom: 0;
-    right: 40px;
+    right: 50px;
     pointer-events: none;
-    max-width: 480px;
-    max-height: 100vh;
+    max-width: 500px;
+    max-height: 150vh;
 }
 
 span {
@@ -937,3 +937,4 @@ span {
 img {
     border-radius: 20px;
 }
+
