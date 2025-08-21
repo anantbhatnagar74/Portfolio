@@ -32,7 +32,17 @@ html {
     font-size: 62.5%;
     overflow-x: hidden;
 }
-
+@media (prefers-color-scheme: dark) {
+  /* styles for dark mode */
+  body {
+    background-color: #333;
+    color: #fff;
+  }
+  .header {
+    background-color: #333;
+  }
+  /* update other elements as needed */
+}
 body {
     background: var(--bg-color);
     color: var(--text-color);
@@ -937,6 +947,7 @@ span {
 img {
     border-radius: 20px;
 }
+
 
 
 
