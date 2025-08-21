@@ -47,7 +47,21 @@ body {
     background: var(--bg-color);
     color: var(--text-color);
 }
+@media (max-width: 768px) {
+  /* styles for small screens */
+  .header {
+    flex-direction: column;
+  }
+  /* update other elements as needed */
+}
 
+@media (max-width: 480px) {
+  /* styles for extra small screens */
+  .header {
+    flex-direction: row;
+  }
+  /* update other elements as needed */
+}
 .header {
     position: fixed;
     top: 0;
@@ -947,6 +961,7 @@ span {
 img {
     border-radius: 20px;
 }
+
 
 
 
